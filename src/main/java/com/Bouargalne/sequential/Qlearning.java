@@ -19,10 +19,10 @@ public class Qlearning {
 
     public Qlearning() {
         actions = new int[][]{
-                {0,-1}, //G
-                {0,1}, //D
-                {1,0}, //B
-                {-1,0} //H
+                {0,-1}, //Gauche
+                {0,1}, //Droitr
+                {1,0}, //Bas
+                {-1,0} //Haut
         };
 
         grid = new int[][]{
@@ -86,7 +86,7 @@ public class Qlearning {
             // Exploration
             act = random.nextInt(ACTIONS_SIZE);
         }else{
-            // Exploiatation
+            // Exploitation
             int st = stateI*GRID_SIZE + stateJ;
             for (int i = 0; i < ACTIONS_SIZE; i++) {
                 if(qTable[st][i] > bestQ){
