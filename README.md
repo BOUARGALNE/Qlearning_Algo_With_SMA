@@ -40,7 +40,7 @@ La méthode run est la méthode principale qui exécute l'algorithme Q-learning 
 À chaque itération, la méthode chooseAction(0.4) est appelée pour choisir une action à prendre avec un paramètre d'exploration (epsilon) de 0.4, ce qui signifie que l'agent effectuera une exploration avec une probabilité de 0.4.
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/b8b229db-ee69-4474-a4e7-70eec418209a)
 ####	Execution :
-*Pour la gride suivante 
+* Pour la gride suivante 
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f0cf61f1-2c9e-4801-a6e3-1523c05e338f)
 
   #### resultat
@@ -67,6 +67,7 @@ setup() : appelée lors de l’initialisation. Elle définit le comportement sé
 * OneShotBehaviour : Un comportement exécuté une seule fois qui réinitialise l'état de l'agent en appelant la méthode resetState().
 * Behaviour : Un comportement itératif qui exécute l'apprentissage par renforcement en appelant la méthode runQLearning() jusqu'à ce que la condition de fin soit atteinte. La condition de fin est définie par iteration >= MAX_EPOCHS ou finished().
 * OneShotBehaviour : Un comportement exécuté une seule fois après la fin de l'apprentissage. Il peut être utilisé pour afficher ou envoyer la qtable.
+* 
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f9b7ce45-4053-4b50-ab0a-2494a7c30649)
 
 
