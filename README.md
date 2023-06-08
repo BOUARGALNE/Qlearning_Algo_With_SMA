@@ -40,7 +40,8 @@ La méthode run est la méthode principale qui exécute l'algorithme Q-learning 
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/b8b229db-ee69-4474-a4e7-70eec418209a)
 ####	Execution :
       Pour la gride suivante 
-      ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/e0cb3cda-fc8a-4151-b0f5-f6653f80be1e)
+     ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f0cf61f1-2c9e-4801-a6e3-1523c05e338f)
+
   #### resultat
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/e193d604-2511-4cf3-bc1d-019ad5626f5f)
 
