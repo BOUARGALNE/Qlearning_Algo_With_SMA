@@ -1,5 +1,5 @@
 # Qlearning_Algo_With_SMA
-## Prtie1:Qlearning_Algo sequential version
+## Partie1 : Qlearning_Algo sequential version
 
 Avant de commencer l’implémentation, il nous faut décrire les paramètres et les variables nécessaires pour implémenter cet Algorithme :
 *	ALPHA : Il s'agit du taux d'apprentissage, qui contrôle dans quelle mesure les nouvelles informations influencent les valeurs Q existantes \n. 
@@ -46,13 +46,13 @@ La méthode run est la méthode principale qui exécute l'algorithme Q-learning 
   #### resultat
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/e193d604-2511-4cf3-bc1d-019ad5626f5f)
 
-##Partie 2 : Version utilisation les SMA
+## Partie 2 : Version utilisation les SMA
 Apres que on vu la version sequentiel de l’implementation de Qlerning, maintenant on  vas le faire avec des systemes multi agents, en effet chaque agent utilise un modèle Q-learning pour apprendre et mettre à jour ses valeurs qtable. Les agents interagissent, observent l'état de l'environnement, choisissent des actions et reçoivent des récompenses en fonction de leurs interactions.
 ####	La classe Main Container
 Tout d’abord on va initialiser et lancer le conteneur principal des agents.
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/95e46e10-0f64-4775-b0ef-e81f9e7a9c00)
 
-##	La classe Simple Container
+####	La classe Simple Container
 est une classe principale du programme qui crée et lance le conteneur des agents dans un environnement JADE. 
  
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f6556acd-5f7c-4dd7-8968-9f0b59a502e8)
@@ -64,9 +64,9 @@ QLUtils contient des constantes que on vas utilisées dans tout projet d'implém
 
 ####	La classe QLearning
 setup() : appelée lors de l’initialisation. Elle définit le comportement séquentiel de l'agent à l'aide de la classe SequentialBehaviour. Le comportement comprend trois sous-comportements :
-OneShotBehaviour : Un comportement exécuté une seule fois qui réinitialise l'état de l'agent en appelant la méthode resetState().
-Behaviour : Un comportement itératif qui exécute l'apprentissage par renforcement en appelant la méthode runQLearning() jusqu'à ce que la condition de fin soit atteinte. La condition de fin est définie par iteration >= MAX_EPOCHS ou finished().
-OneShotBehaviour : Un comportement exécuté une seule fois après la fin de l'apprentissage. Il peut être utilisé pour afficher ou envoyer la qtable.
+* OneShotBehaviour : Un comportement exécuté une seule fois qui réinitialise l'état de l'agent en appelant la méthode resetState().
+* Behaviour : Un comportement itératif qui exécute l'apprentissage par renforcement en appelant la méthode runQLearning() jusqu'à ce que la condition de fin soit atteinte. La condition de fin est définie par iteration >= MAX_EPOCHS ou finished().
+* OneShotBehaviour : Un comportement exécuté une seule fois après la fin de l'apprentissage. Il peut être utilisé pour afficher ou envoyer la qtable.
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f9b7ce45-4053-4b50-ab0a-2494a7c30649)
 
 
@@ -74,7 +74,7 @@ OneShotBehaviour : Un comportement exécuté une seule fois après la fin de l'a
 La méthode sendQTable() de la classe QAgent est utilisée pour envoyer la table Q à un agent spécifique.
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/4ea6b6c2-9289-4b77-9dd2-728cc6735967)
 
-_	Execution :_ ☑️
+#### Execution : ☑️
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/61159796-9c15-4ce4-811f-e50f7dd55596)
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/fdc0a0cf-5679-4aec-b4bb-b97b85f7b076)
 
