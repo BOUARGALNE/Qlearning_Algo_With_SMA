@@ -13,7 +13,7 @@ Avant de commencer l’implémentation, il nous faut décrire les paramètres et
  
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/8ab64997-4405-40be-87c9-35f70270b947)
 
-	Méthode ChooseAction :
+####	Méthode ChooseAction :
 La méthode chooseAction est utilisée pour sélectionner une action à prendre par l'agent, en fonction d'un paramètre epsilon (eps) qui contrôle l'exploration par rapport à l'exploitation.
 Cette méthode permet à l'agent d'effectuer une exploration aléatoire avec une probabilité eps ou d'exploiter la meilleure valeur Q disponible pour prendre une décision
 
