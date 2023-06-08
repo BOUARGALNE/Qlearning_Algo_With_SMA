@@ -1,15 +1,15 @@
 # Qlearning_Algo_With_SMA
 
 Avant de commencer l’implémentation, il nous faut décrire les paramètres et les variables nécessaires pour implémenter cet Algorithme :
-•	ALPHA : Il s'agit du taux d'apprentissage, qui contrôle dans quelle mesure les nouvelles informations influencent les valeurs Q existantes \n. 
-•	GAMMA : Il représente le facteur de remise, qui influence la valeur de la récompense future. 
-•	MAX_EPOCH : C'est le nombre maximal d'itérations (ou époques) pendant lesquelles l'algorithme Q-learning sera exécuté. 
-•	GRID_SIZE : Il définit la taille de la grille de l'environnement dans lequel les agents évoluent. Dans cet exemple, la grille est carrée et a une taille de 4x4.
-•	ACTIONS_SIZE : Il représente le nombre d'actions possibles pour chaque agent. Dans ce cas, il y a 4 actions possibles : haut, bas, gauche et droite.
-•	grid : C'est un tableau 2D qui représente l'environnement dans lequel les agents se déplacent. Chaque case de la grille contient une valeur entière.
-•	qTable : Il s'agit de la table Q qui enregistre les valeurs Q pour chaque état et action possibles. 
-•	actions : C'est un tableau 2D qui définit les déplacements possibles pour chaque action. Chaque action est représentée par un couple de coordonnées (delta i, delta j) correspondant au déplacement vertical et horizontal dans la grille.
-•	stateI et stateJ : Ce sont les coordonnées de l'état actuel dans la grille. Les agents se déplacent dans la grille et ces variables sont mises à jour en conséquence.
+*	ALPHA : Il s'agit du taux d'apprentissage, qui contrôle dans quelle mesure les nouvelles informations influencent les valeurs Q existantes \n. 
+*	GAMMA : Il représente le facteur de remise, qui influence la valeur de la récompense future. 
+*	MAX_EPOCH : C'est le nombre maximal d'itérations (ou époques) pendant lesquelles l'algorithme Q-learning sera exécuté. 
+* GRID_SIZE : Il définit la taille de la grille de l'environnement dans lequel les agents évoluent. Dans cet exemple, la grille est carrée et a une taille de 4x4.
+*	ACTIONS_SIZE : Il représente le nombre d'actions possibles pour chaque agent. Dans ce cas, il y a 4 actions possibles : haut, bas, gauche et droite.
+*	grid : C'est un tableau 2D qui représente l'environnement dans lequel les agents se déplacent. Chaque case de la grille contient une valeur entière.
+*	qTable : Il s'agit de la table Q qui enregistre les valeurs Q pour chaque état et action possibles. 
+*	actions : C'est un tableau 2D qui définit les déplacements possibles pour chaque action. Chaque action est représentée par un couple de coordonnées (delta i, delta j) correspondant au déplacement vertical et horizontal dans la grille.
+*	stateI et stateJ : Ce sont les coordonnées de l'état actuel dans la grille. Les agents se déplacent dans la grille et ces variables sont mises à jour en conséquence.
  
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/8ab64997-4405-40be-87c9-35f70270b947)
 
