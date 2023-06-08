@@ -43,7 +43,7 @@ La méthode run est la méthode principale qui exécute l'algorithme Q-learning 
 * Pour la gride suivante 
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f0cf61f1-2c9e-4801-a6e3-1523c05e338f)
 
-  #### resultat
+#### resultat
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/e193d604-2511-4cf3-bc1d-019ad5626f5f)
 
 ## Partie 2 : Version utilisation les SMA
@@ -55,7 +55,7 @@ Tout d’abord on va initialiser et lancer le conteneur principal des agents.
 ####	La classe Simple Container
 est une classe principale du programme qui crée et lance le conteneur des agents dans un environnement JADE. 
  
-![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f6556acd-5f7c-4dd7-8968-9f0b59a502e8)
+ ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f6556acd-5f7c-4dd7-8968-9f0b59a502e8)
 
 
 ####	La classe QLUtils
@@ -67,7 +67,7 @@ setup() : appelée lors de l’initialisation. Elle définit le comportement sé
 * OneShotBehaviour : Un comportement exécuté une seule fois qui réinitialise l'état de l'agent en appelant la méthode resetState().
 * Behaviour : Un comportement itératif qui exécute l'apprentissage par renforcement en appelant la méthode runQLearning() jusqu'à ce que la condition de fin soit atteinte. La condition de fin est définie par iteration >= MAX_EPOCHS ou finished().
 * OneShotBehaviour : Un comportement exécuté une seule fois après la fin de l'apprentissage. Il peut être utilisé pour afficher ou envoyer la qtable.
-* 
+
  ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/f9b7ce45-4053-4b50-ab0a-2494a7c30649)
 
 
@@ -77,7 +77,8 @@ La méthode sendQTable() de la classe QAgent est utilisée pour envoyer la table
 
 #### Execution : ☑️
 ![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/61159796-9c15-4ce4-811f-e50f7dd55596)
-![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/fdc0a0cf-5679-4aec-b4bb-b97b85f7b076)
+
+![image](https://github.com/BOUARGALNE/Qlearning_Algo_With_SMA/assets/120935020/082779f2-f229-4a81-88d8-347539867357)
 
  
  
